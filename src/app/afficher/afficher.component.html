@@ -1,0 +1,36 @@
+<h2> Application de Gestion Personnel dans une usine</h2>
+<div class="container">
+    <h4 style="color:rgb(250, 248, 248)">Liste de tous les personnes dans une usine</h4>
+    <table  class="table table-dark table-hover">
+        <thead class="table-primary ">  
+        <tr class="table-success">
+        <th >Id</th>
+        <th > Prenom</th>
+        <th > Nom</th>
+        <th> Metier</th>
+        <th> CIN</th>
+        <th>Ville</th>
+        <th>Salaire</th>
+        <th id="action">Action</th>
+        </tr>
+     </thead>
+     <tbody>
+        <tr *ngFor= "let p of lespersonnes">
+            <td >{{p.id}}</td>
+            <td >{{p.Prenom}}</td>
+            <td>{{p.Nom}}</td>
+            <td>{{p.Metier}}</td>
+            <td>{{p.CIN}}</td>
+            <td>{{p.Ville}}</td>
+            <td>{{p.Salaire}}</td>
+            <td>
+                <a class="btn btn-light" id ="btn1" routerLink="/supprimer/{{p.id}}">Supprimer</a>&nbsp;
+                <a class="btn btn-light" id ="btn1" routerLink="/modifier/{{p.id}}">Modifier</a>
+            </td>
+        </tr>
+
+     </tbody>
+        
+        
+    </table>
+</div>

@@ -1,0 +1,29 @@
+
+    <h3>Modifier Personne</h3>
+<section class="form">
+    <form  #f="ngForm" (ngSubmit) ='modifier(f)'>
+
+        <label for="id">ID</label>
+         <input type="number" readonly name="id" [ngModel]="P.id"><br><br>
+         <label for="prenom">Prenom</label>
+         <input type="text" required  [ngModel]="P.Prenom" name="Prenom"><br><br>
+         <label for="Nom">NOM</label>
+         <input type="text" required [ngModel]="P.Nom" name="Nom" ><br><br>
+         <label for="Metier">Metier</label>
+         <input type="text" required  [ngModel]="P.Metier" name="Metier"><br><br>
+         <label for="CIN">CIN</label>
+         <input type="number" required  [ngModel]="P.CIN" name="CIN"><br><br>
+         <label for="Ville">Ville</label>
+        <input type="text" required  [ngModel]="P.Ville" name="Ville"><br><br>
+        <label for="Salaire">Salaire</label>
+         <input type="number"  [ngModel]="P.Salaire"  name="Salaire"><br><br><br>
+        <button class="btn btn-outline-warning" type="submit">Modifier</button>
+       
+    </form>
+    
+    
+    
+</section>
+
+
+

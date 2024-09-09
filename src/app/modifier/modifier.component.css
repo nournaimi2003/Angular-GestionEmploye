@@ -1,0 +1,39 @@
+h3{
+    font-family:  sans-serif;
+  letter-spacing: 0.10rem;
+  text-align: center; 
+  padding-top: 8rem;
+  padding-bottom: 1rem;
+  color: white;
+  padding-left: 25rem;
+  font-family:  sans-serif;
+  letter-spacing: 0.10rem;
+} 
+.form{
+
+    text-align: center;
+}
+input{
+  
+        flex-direction: column;
+        background: transparent;
+        color: white;
+        height: 2rem;
+        width: 25rem;
+        font-size: 1.25rem;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        margin-top: 1.5rem;
+      border-color: rgb(158, 131, 63);
+  
+}
+label {
+    color:rgb(158, 131, 63);
+    padding-right: 1.75rem;
+}
+button{
+    margin-bottom: 2rem;
+    padding: 0.75rem;
+}
+

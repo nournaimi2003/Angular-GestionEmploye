@@ -1,0 +1,20 @@
+<section class="vp-ajou">
+    <h3> Ajouter un Personne</h3>
+<form #f="ngForm" (ngSubmit) ="ajouter(f)">
+    <label for="Prenom">Prenom</label>
+     <input type="text" required ngModel name="Prenom"><br><br>
+     <label for="Nom">Nom</label>
+     <input  type="text" required ngModel name="Nom"><br><br>
+     <label for="Metier">Metier</label>
+     <input  type="text" required ngModel name="Metier"><br><br>
+     <label for="CIN">CIN</label>
+     <input  type="number" required ngModel name="CIN"><br><br>
+     <label for="Ville">Ville</label>
+     <input  type="text" required ngModel name="Ville"><br><br>
+     <label for="Salaire">Salaire</label>
+     <input  type="number" required ngModel name="Salaire"><br><br>
+    <button class="btn btn-outline-warning" type="submit">Ajouter</button>
+
+</form>
+
+ </section>

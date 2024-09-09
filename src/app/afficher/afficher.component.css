@@ -1,0 +1,35 @@
+ 
+ h4{
+  font-family:  sans-serif;
+  letter-spacing: 0.10rem;
+  /* text-align: center; */
+  float: left;
+  padding-top: 3.25rem;
+  /* color: rgb(253, 148, 11), 181; */
+} 
+ 
+    
+
+ table tr{
+     border-color:rgb(180, 252, 200); 
+     
+ }  
+  
+h2{
+  text-align: center;
+  /* color: rgb(177, 177, 41); */
+  /* color:rgb(158, 131, 63); */
+  color: rgb(159, 225, 206);
+  padding-left: 19rem;
+  letter-spacing: 0.10rem;
+  padding-top:0.5rem ;
+
+}
+#action{
+  /* text-align: center; */
+  padding-left: 5rem;
+
+}
+
+
+

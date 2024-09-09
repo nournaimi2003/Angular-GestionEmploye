@@ -1,0 +1,34 @@
+
+ a{
+    text-decoration: none;
+  }
+h1{
+  text-align: center;
+  color: rgb(83, 142, 243);
+}
+button{
+  margin-top: 6rem;
+  
+
+ 
+}
+.butt{
+  float: right;
+  padding-right: 5rem;
+}
+*{
+  background-color: rgb(34, 34, 34);
+}
+.btn{
+  background-color: transparent;
+  /* background-color: rgb(255, 253, 255); */
+  transition: 0.4s;
+  color:rgb(180, 252, 200);
+  border: 2px solid  rgb(180, 252, 200);
+  /* border-radius: 30px; */
+}
+.btn:hover{
+  background-color: white;
+  border: 2px solid rgb(169, 244, 214) ;
+  color:black  ;
+}
